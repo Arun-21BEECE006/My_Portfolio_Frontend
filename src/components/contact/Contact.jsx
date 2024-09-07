@@ -21,7 +21,7 @@ const Contact = (props) => {
             }
             
             try {
-                const mailTrigger = await fetch(`https://arun-portfolio-backend.vercel.app/api/sendEmail`, {
+                const mailTrigger = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/sendEmail`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json',
