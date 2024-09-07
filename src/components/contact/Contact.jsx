@@ -21,7 +21,7 @@ const Contact = (props) => {
             }
             
             try {
-                const mailTrigger = await fetch("http://localhost:8000/sendEmail", {
+                const mailTrigger = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/sendEmail`, {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ const Contact = (props) => {
                 if (!mailTrigger.ok) {
                     throw new Error(`HTTP error! Status: ${mailTrigger.status}`);
                 } else {
-                    const thankyouMailSend = await fetch("http://localhost:8000/thankyouMail", {
+                    const thankyouMailSend = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/thankYouMail`, {
                         method: "POST",
                         headers: {
                             'Content-Type': 'application/json',
