@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Image from '../../assets/avatar-9.png';
-import Resume from '../../assets/resume.pdf';
+import Resume from '../../assets/Arun_Resume.pdf';
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -20,26 +20,27 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                        Hello! I'm Arun Kumar, based in Coimbatore, India. I am currently pursuing my B.E. in Electronics and Communication Engineering at Karpagam Academy of Higher Education.<br /><br />
-                        As a passionate final-year student with proficiency in C, C++, Java, and Swift, and foundational skills in Python and ReactJS, I've been dedicated to expanding my knowledge and skills in software development.
-                        My journey so far has been both challenging and rewarding, and I am enthusiastic about further growth as a Software Engineer. Currently, I am focused on building a diverse portfolio of projects and contributing effectively as a team player in any role I undertake.<br /><br />
+                        Hello! I'm Arun Kumar, a Software Development Engineer based in Coimbatore, India, with 8 months of professional experience in building scalable backend systems and modern web applications.<br /><br />
+                        I specialize in Python (Django) for backend development and have hands-on experience developing enterprise-level applications, REST APIs, and secure, scalable systems. During my time at Mitsogo (Hexnode), I contributed to building robust backend services and dynamic user interfaces, along with designing secure solutions like portal protection systems.<br /><br />
+                        I have a strong foundation in data structures, algorithms, and object-oriented design, and I enjoy solving complex real-world problems through efficient and scalable solutions. Alongside backend development, I also work with modern frontend technologies to build complete full-stack applications.<br /><br />
                         Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">
-                            <li>C, C++,Python, Java</li>
-                            <li>Swift</li>
+                            <li>Python (Django, Flask), OOPS</li>
+                            <li>Java, C, C++, Data Structures & Algorithms</li>
                             <li>HTML, CSS, JavaScript</li>
-                            <li>React JS</li>
-                            <li>GitHub</li>
-                            <li>VS Code, Eclipse, NetBeans</li>
+                            <li>React JS, Angular JS</li>
+                            <li>SQL, MongoDB, PostgreSQL</li>
+                            <li>Git, Postman, VS Code</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Download Resume</button>
                     </div>
 
-                    {/* <div className="about__skills grid">
+                    <br/>
+                    <div className="about__skills grid">
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">Development</h3>
+                                <h3 className="skills__name">Frontend Development</h3>
                                 <span className="skills__number">90%</span>
                             </div>
 
@@ -52,8 +53,8 @@ const About = () => {
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">UI/UX Design</h3>
-                                <span className="skills__number">80%</span>
+                                <h3 className="skills__name">Backend Development</h3>
+                                <span className="skills__number">85%</span>
                             </div>
 
                             <div className="skills__bar">
@@ -65,8 +66,8 @@ const About = () => {
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className="skills__name">Photography</h3>
-                                <span className="skills__number">60%</span>
+                                <h3 className="skills__name">Data Structures & Algorithms</h3>
+                                <span className="skills__number">75%</span>
                             </div>
 
                             <div className="skills__bar">
@@ -75,7 +76,7 @@ const About = () => {
                                 </span>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
 
