@@ -37,9 +37,9 @@ const Portfolio = () => {
 				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Electronics"); setActiveFilter(3) }}>
 				    Electronics
 				</span>
-				<span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Ongoing Projects"); setActiveFilter(5) }}>
+				{/* <span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Ongoing Projects"); setActiveFilter(5) }}>
 				    Ongoing Projects
-				</span>
+				</span> */}
 			</div>
 
 			<div className="portfolio__container grid">
