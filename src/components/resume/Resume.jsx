@@ -34,15 +34,17 @@ const Resume = () => {
           {WorkExperience.map((experience) => {
             const { id, company, yearsActive, title, information } = experience;
             const roleType = title.toLowerCase().includes("intern")
-                            ? "Internship"
-                            : "Full-Time";
+              ? "Internship"
+              : "Full-Time";
             return (
               <TabPanel className="tab__panel" key={`panel-${id}`}>
                 <h2 className="tab__panel-title">
                   {title} @ {company}
                 </h2>
-                <span className={`badge ${roleType === "Internship" ? "intern" : "fulltime"}`}>
-                    {roleType}
+                <span
+                  className={`badge ${roleType === "Internship" ? "intern" : "fulltime"}`}
+                >
+                  {roleType}
                 </span>
                 <p className="tab__panel-subtitle">{yearsActive}</p>
                 <ul className="tab__panel-list">
@@ -54,9 +56,6 @@ const Resume = () => {
             );
           })}
         </Tabs>
-        <br />
-        <br />
-        <br />
         <br />
       </div>
     </section>
