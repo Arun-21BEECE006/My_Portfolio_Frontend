@@ -11,6 +11,8 @@ const Menu = [
 		image: Work1,
 		title: "Personal Portfolio Website (React)",
 		category: ["React"],
+		url: "https://arun-portfolio-chi.vercel.app",
+		repositoryUrl: "https://github.com/Arun-21BEECE006/My_Portfolio_Frontend"
 		// repositoryUrl: "/"
 	},
 	{
