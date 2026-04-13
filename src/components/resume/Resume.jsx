@@ -6,53 +6,61 @@ import Button from "./Button";
 import WorkExperience from "./WorkExperience";
 
 const Resume = () => {
-    const [tabIndex, setTabIndex] = useState(0);
+  const [tabIndex, setTabIndex] = useState(0);
 
-    return (
-        <section className="resume container section" id="resume">
-            <h2 className="section__title">Internships</h2>
+  return (
+    <section className="resume container section" id="resume">
+      <h2 className="section__title">Experience</h2>
 
-            <div className="resume__container">
-                <Tabs
-                    className="tabs"
-                    selectedIndex={tabIndex}
-                    onSelect={(index) => setTabIndex(index)}
-                    selectedTabClassName={"is-active"}
-                    selectedTabPanelClassName={"is-active"}
-                >
-                    <TabList className="tab__list">
-                        {WorkExperience.map((experience, index) => {
-                            const { id, company } = experience;
-                            return (
-                                <Tab className="tab" key={`company-${id}`}>
-                                    <Button>{company}</Button>
-                                </Tab>
-                            );
-                        })}
-                    </TabList>
+      <div className="resume__container">
+        <Tabs
+          className="tabs"
+          selectedIndex={tabIndex}
+          onSelect={(index) => setTabIndex(index)}
+          selectedTabClassName={"is-active"}
+          selectedTabPanelClassName={"is-active"}
+        >
+          <TabList className="tab__list">
+            {WorkExperience.map((experience, index) => {
+              const { id, company } = experience;
+              return (
+                <Tab className="tab" key={`company-${id}`}>
+                  <Button>{company}</Button>
+                </Tab>
+              );
+            })}
+          </TabList>
 
-                    {WorkExperience.map((experience) => {
-                        const { id, company, yearsActive, title, information } = experience;
-                        return (
-                            <TabPanel className="tab__panel" key={`panel-${id}`}>
-                                <h2 className="tab__panel-title">
-                                    {title} @ {company}
-                                </h2>
-                                <p className="tab__panel-subtitle">{yearsActive}</p>
-                                <ul className="tab__panel-list">
-                                    {information.map((info, index) => {
-                                        return <li key={`info-${index}`}>{info}</li>;
-                                    })}
-                                </ul>
-                            </TabPanel>
-                        );
-                    })}
-                </Tabs>
-                <br/>
-                <br/><br/><br/>
-            </div>
-        </section>
-    );
+          {WorkExperience.map((experience) => {
+            const { id, company, yearsActive, title, information } = experience;
+            const roleType = title.toLowerCase().includes("intern")
+                            ? "Internship"
+                            : "Full-Time";
+            return (
+              <TabPanel className="tab__panel" key={`panel-${id}`}>
+                <h2 className="tab__panel-title">
+                  {title} @ {company}
+                </h2>
+                <span className={`badge ${roleType === "Internship" ? "intern" : "fulltime"}`}>
+                    {roleType}
+                </span>
+                <p className="tab__panel-subtitle">{yearsActive}</p>
+                <ul className="tab__panel-list">
+                  {information.map((info, index) => {
+                    return <li key={`info-${index}`}>{info}</li>;
+                  })}
+                </ul>
+              </TabPanel>
+            );
+          })}
+        </Tabs>
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+    </section>
+  );
 };
 
 export default Resume;

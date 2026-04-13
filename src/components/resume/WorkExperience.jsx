@@ -1,34 +1,50 @@
 const WorkExperience = [
     {
         id: 1,
-        title: "Web Development",
-        company: "Motion Cut Inside AICTE" ,
-        yearsActive: "November 2023 - December 2023",
+        title: "Software Engineer",
+        type: "Full-Time",
+        company: "Mitsogo Technologies (Hexnode)",
+        yearsActive: "Jul 2025 – Mar 2026",
         information: [
-            "Utilized HTML, CSS, and JavaScript for various web development tasks",
-            "Developed proficiency in creating business websites, designing registration forms with validation, ensuring responsive design, and constructing Food Website",
+            "Developed scalable backend systems using Python (Django) for enterprise applications",
+            "Designed and implemented REST APIs for secure and efficient data handling",
+            "Contributed to the Hexnode Portal Protection project, ensuring secure access and seamless integration",
         ],
     },
     {
         id: 2,
-        title: "Embedded C",
-        company: "Emglitz Technologies",
-        yearsActive: "May 2023 - June 2023",
+        title: "Web Development Intern",
+        type: "Internship",
+        company: "Motion Cut (AICTE)" ,
+        yearsActive: "November 2023 - December 2023",
         information: [
-            "Implemented Embedded C in projects centered around embedded systems",
-            "Acquired skills in programming embedded systems with a focus on hardware-software integration",
+            "Built responsive web applications using HTML, CSS, and JavaScript",
+            "Developed form validation and user-friendly UI components",
+            "Created a functional food ordering website with modern design practices",
         ],
     },
     {
         id: 3,
-        title: "Very Large Scale Industry (VLSI)",
-        company: "Sevael Technologies Private Limited",
+        title: "Embedded C Intern",
+        type: "Internship",
+        company: "Emglitz Technologies",
+        yearsActive: "May 2023 - June 2023",
+        information: [
+            "Developed embedded system applications using Embedded C",
+            "Worked on hardware-software integration and real-time system logic",
+            "Gained hands-on experience with microcontroller-based systems",
+        ],
+    },
+    {
+        id: 4,
+        title: "VLSI Intern",
+        type: "Internship",
+        company: "Sevael Technologies Pvt Ltd",
         yearsActive: "July 2022 - August 2022",
         information: [
-            "Worked on VLSI design using industry-standard tools and technologies",
-            "Acquired skills in designing integrated circuits and semiconductor technologies."
-
-
+            "Worked on VLSI design using industry-standard tools",
+            "Learned fundamentals of IC design and semiconductor technologies",
+            "Implemented basic circuit design and simulation concepts",
         ],
     },
     // {

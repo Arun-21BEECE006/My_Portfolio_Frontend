@@ -17,6 +17,25 @@
   box-shadow: var(--shadow);
 }
 
+.badge {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.badge.intern {
+  background-color: #e0f7fa;
+  color: #00796b;
+}
+
+.badge.fulltime {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
 .tab__panel.is-active {
   display: block;
 }
