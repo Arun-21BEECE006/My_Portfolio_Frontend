@@ -20,9 +20,11 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                        Hello! I'm Arun Kumar, a Software Development Engineer based in Coimbatore, India, with 8 months of professional experience in building scalable backend systems and modern web applications.<br /><br />
+                        Hello! I'm Arun Kumar, a Software Development Engineer based in Coimbatore, India, with 8 months of experience in building scalable backend systems and modern web applications.<br /><br />
+                        I specialize in Python (Django) and have hands-on experience developing REST APIs, secure enterprise applications, and full-stack solutions. At Mitsogo (Hexnode), I worked on backend services and contributed to building secure and scalable systems. I’m passionate about solving complex problems and continuously improving my skills in software development.<br /><br />
+                        {/* Hello! I'm Arun Kumar, a Software Development Engineer based in Coimbatore, India, with 8 months of professional experience in building scalable backend systems and modern web applications.<br /><br />
                         I specialize in Python (Django) for backend development and have hands-on experience developing enterprise-level applications, REST APIs, and secure, scalable systems. During my time at Mitsogo (Hexnode), I contributed to building robust backend services and dynamic user interfaces, along with designing secure solutions like portal protection systems.<br /><br />
-                        I have a strong foundation in data structures, algorithms, and object-oriented design, and I enjoy solving complex real-world problems through efficient and scalable solutions. Alongside backend development, I also work with modern frontend technologies to build complete full-stack applications.<br /><br />
+                        I have a strong foundation in data structures, algorithms, and object-oriented design, and I enjoy solving complex real-world problems through efficient and scalable solutions. Alongside backend development, I also work with modern frontend technologies to build complete full-stack applications.<br /><br /> */}
                         Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">

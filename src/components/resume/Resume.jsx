@@ -56,7 +56,6 @@ const Resume = () => {
             );
           })}
         </Tabs>
-        <br />
       </div>
     </section>
   );

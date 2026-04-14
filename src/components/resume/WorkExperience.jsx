@@ -6,9 +6,9 @@ const WorkExperience = [
         company: "Mitsogo Technologies (Hexnode)",
         yearsActive: "Jul 2025 – Mar 2026",
         information: [
-            "Developed scalable backend systems using Python (Django) for enterprise applications",
+            "Developed scalable backend systems using Python (Django) for enterprise-level applications",
             "Designed and implemented REST APIs for secure and efficient data handling",
-            "Contributed to the Hexnode Portal Protection project, ensuring secure access and seamless integration",
+            "Built the Hexnode Portal Protection system, ensuring secure access and seamless integration",
         ],
     },
     {
@@ -16,11 +16,11 @@ const WorkExperience = [
         title: "Web Development Intern",
         type: "Internship",
         company: "Motion Cut (AICTE)" ,
-        yearsActive: "November 2023 - December 2023",
+        yearsActive: "Nov 2023 - Dec 2023",
         information: [
-            "Built responsive web applications using HTML, CSS, and JavaScript",
-            "Developed form validation and user-friendly UI components",
-            "Created a functional food ordering website with modern design practices",
+            "Developed responsive web applications using HTML, CSS, and JavaScript",
+            "Implemented form validation and interactive UI components",
+            "Built a functional food ordering website with modern design practices",
         ],
     },
     {
@@ -28,9 +28,9 @@ const WorkExperience = [
         title: "Embedded C Intern",
         type: "Internship",
         company: "Emglitz Technologies",
-        yearsActive: "May 2023 - June 2023",
+        yearsActive: "May 2023 - Jun 2023",
         information: [
-            "Developed embedded system applications using Embedded C",
+            "Built embedded system applications using Embedded C",
             "Worked on hardware-software integration and real-time system logic",
             "Gained hands-on experience with microcontroller-based systems",
         ],
@@ -40,7 +40,7 @@ const WorkExperience = [
         title: "VLSI Intern",
         type: "Internship",
         company: "Sevael Technologies Pvt Ltd",
-        yearsActive: "July 2022 - August 2022",
+        yearsActive: "Jul 2022 - Aug 2022",
         information: [
             "Worked on VLSI design using industry-standard tools",
             "Learned fundamentals of IC design and semiconductor technologies",
