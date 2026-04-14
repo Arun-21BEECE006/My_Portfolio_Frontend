@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter} from 'react-icons/fa';
-// import { SiHashnode } from 'react-icons/si'
+import { SiLeetcode, SiCodechef } from 'react-icons/si'
 
 const HeaderSocials = () => {
     return (
@@ -12,6 +12,13 @@ const HeaderSocials = () => {
                 <FaGithub />
             </a>
 
+            <a href="https://leetcode.com/u/user0698K" className="home__social-link" target="_blank" rel="noreferrer">
+                <SiLeetcode />
+            </a>
+
+            <a href="https://www.codechef.com/users/arun29072003" className="home__social-link" target="_blank" rel="noreferrer">
+                <SiCodechef />
+            </a>
             {/* <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
                 <SiHashnode />
             </a>

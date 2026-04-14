@@ -102,7 +102,7 @@ import {
   RiBriefcase2Line,
   RiStackLine,
   RiDraftLine,
-    RiChat3Line,
+  RiChat3Line,
   RiFileList3Line,
   RiMoonLine,
   RiSunLine,
