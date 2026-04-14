@@ -98,15 +98,15 @@ const Portfolio = () => {
 				<span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Codeathon Winner"); setActiveFilter(1) }}>
                     Codeathon Winner
 				</span>
-				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Gold Medalist"); setActiveFilter(2) }}>
-					Gold Medalist
+				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Academic Excellence"); setActiveFilter(2) }}>
+					Academic Excellence
 				</span>
-				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("First Rank Holder"); setActiveFilter(3) }}>
-					First Rank Holder
+				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Research Achievement"); setActiveFilter(3) }}>
+					Research Achievement
 				</span>
-                <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Second Rank Holder"); setActiveFilter(4) }}>
+                {/* <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Second Rank Holder"); setActiveFilter(4) }}>
 					Second Rank Holder
-				</span>
+				</span> */}
 			</div>
 
 			<div className="portfolio__container grid">
