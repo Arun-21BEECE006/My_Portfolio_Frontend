@@ -22,7 +22,7 @@ const Blog = () => {
               rel="noopener noreferrer"
             >
               <span className="blog__category">
-                ICATSM 2025 – Paper Presentation
+                ICATSM 2025 – International Conference
               </span>
             </a>
 
@@ -90,7 +90,7 @@ const Blog = () => {
               rel="noopener noreferrer"
             >
               <span className="blog__category">
-                ICCSICE 2024 – Paper Presentation
+                ICCSICE 2024 – International Conference
               </span>
             </a>
 
