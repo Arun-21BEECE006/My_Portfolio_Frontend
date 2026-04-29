@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Image from '../../assets/avatar-9.png';
-import Resume from '../../assets/Arun_Resume.pdf';
+import Resume from '../../assets/Arun_Kumar_Exp.pdf';
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -28,11 +28,11 @@ const About = () => {
                         Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">
-                            <li>Python (Django, Flask), OOPS</li>
+                            <li>Python (Django, Flask), OOPS, NLP</li>
                             <li>Java, C, C++, Data Structures & Algorithms</li>
-                            <li>HTML, CSS, JavaScript</li>
-                            <li>React JS, Angular JS</li>
-                            <li>SQL, MongoDB, PostgreSQL</li>
+                            <li>HTML, CSS, JavaScript, Nodemailer</li>
+                            <li>React, Angular, Node.js</li>
+                            <li>SQL, MongoDB, PostgreSQL, MySQL</li>
                             <li>Git, Postman, VS Code</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Download Resume</button>
