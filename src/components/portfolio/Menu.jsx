@@ -4,7 +4,7 @@ import Work3 from "../../assets/project-4.png";
 import Work4 from "../../assets/project-2-1.png";
 import Work5 from "../../assets/project-3.png";
 import Work6 from "../../assets/project-6-1.png";
-import work7 from "../../assets/project-8.png";
+import Work7 from "../../assets/project-8.png";
 
 const Menu = [
   {
