@@ -9,7 +9,7 @@ import work7 from "../../assets/project-8.png";
 const Menu = [
   {
     id: 1,
-    image: Work1,
+    image: Work7,
     title:
       "AI-Powered Resume Screening System (Flask, NLP, PDF Processing, PostgreSQL)",
     category: ["Python"],
