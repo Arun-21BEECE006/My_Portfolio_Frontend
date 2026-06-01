@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Image from '../../assets/avatar-9.png';
-import Resume from '../../assets/Arun_Kumar_Exp.pdf';
+import Resume from '../../assets/Arun_Resume.pdf';
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -20,20 +20,22 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                        Hello! I'm Arun Kumar, a Software Development Engineer based in Coimbatore, India, with 8 months of experience in building scalable backend systems and modern web applications.<br /><br />
-                        I specialize in Python (Django) and have hands-on experience developing REST APIs, secure enterprise applications, and full-stack solutions. At Mitsogo (Hexnode), I worked on backend services and contributed to building secure and scalable systems. I’m passionate about solving complex problems and continuously improving my skills in software development.<br /><br />
+                        Hello! I'm Arun Kumar, a Software Development Engineer based in Kerala, India, with experience building scalable full-stack applications and AI/ML Systems.<br /><br />
+                        I built and deployed <strong>DevLink</strong> - a production-ready enterprise workforce management platform that replaces Jira, Slack and Zoom with real-time communication, AI-powered analytics and role-based access control. Currently working as a Junior AI/ML Engineer at NGXP Technologies, developing real-time computer vision systems for L&T using YOLOv8 and Roboflow.<br /><br />
+                        Previously at Mitsogo (Hexnode), I contributed to the Hexnode UEM Portal building secure RESTful APIs, user management modules and access control systems using Django and Angular.<br /><br />
                         {/* Hello! I'm Arun Kumar, a Software Development Engineer based in Coimbatore, India, with 8 months of professional experience in building scalable backend systems and modern web applications.<br /><br />
                         I specialize in Python (Django) for backend development and have hands-on experience developing enterprise-level applications, REST APIs, and secure, scalable systems. During my time at Mitsogo (Hexnode), I contributed to building robust backend services and dynamic user interfaces, along with designing secure solutions like portal protection systems.<br /><br />
                         I have a strong foundation in data structures, algorithms, and object-oriented design, and I enjoy solving complex real-world problems through efficient and scalable solutions. Alongside backend development, I also work with modern frontend technologies to build complete full-stack applications.<br /><br /> */}
                         Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">
-                            <li>Python (Django, Flask), OOPS, NLP</li>
-                            <li>Java, C, C++, Data Structures & Algorithms</li>
-                            <li>HTML, CSS, JavaScript, Nodemailer</li>
-                            <li>React, Angular, Node.js</li>
-                            <li>SQL, MongoDB, PostgreSQL, MySQL</li>
-                            <li>Git, Postman, VS Code</li>
+                            <li>Python (Django, Flask, Flask-SocketIO)</li>
+                            <li>AI/ML -YOLOv8, NLP, TensorFlow, Gemini AI</li>
+                            {/* <li>Java, C, C++, Data Structures & Algorithms</li> */}
+                            <li>React, Angular, Javascript, HTML, CSS</li>
+                            <li>Node.js, WebRTC, Rest APIs, WebSockets</li>
+                            <li>PostgreSQL, MongoDB, MySQL, SQL</li>
+                            <li>Git, Roboflow, Postman, Docker, VS Code</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Download Resume</button>
                     </div>
