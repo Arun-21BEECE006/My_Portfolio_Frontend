@@ -21,7 +21,7 @@ const Menu = [
     id: 2,
     image: Work7,
     title:
-      "AI-Powered Resume Screening System (Flask, NLP, PDF Processing, PostgreSQL)",
+      "AI-Powered Resume Screening System",
     category: ["Python"],
     url: "https://ats-resume-analyzer-dp6l.onrender.com",
     repositoryUrl: "https://github.com/Arun-21BEECE006/ATS-resume-analyzer",
@@ -30,7 +30,7 @@ const Menu = [
   {
     id: 3,
     image: Work6,
-    title: "Oral Cancer Detector using LSTM Model",
+    title: "Oral Cancer Detector using CNN & LSTM",
     category: ["Electronics"],
     url: "https://drive.google.com/drive/folders/1xtdiboWYoKK1yNv76EfQi8pcAshbYmHo?usp=sharing",
     repositoryUrl:
@@ -40,7 +40,7 @@ const Menu = [
     id: 4,
     image: Work1,
     title:
-      "Personal Portfolio Website ( React, Node.js, Express.js, Nodemailer)",
+      "Personal Portfolio Website",
     category: ["React"],
     url: "https://arun-portfolio-chi.vercel.app",
     repositoryUrl: "https://github.com/Arun-21BEECE006/My_Portfolio_Frontend",
@@ -58,7 +58,7 @@ const Menu = [
     id: 6,
     image: Work4,
     title:
-      "Real-Time Object Detection System (Python, Flask, NumPy, TensorFlow, YOLOV8)",
+      "Real-Time Object Detection System",
     category: ["Python"],
     url: "https://object-detector-using-python.onrender.com",
     repositoryUrl:
@@ -75,7 +75,7 @@ const Menu = [
   {
     id: 8,
     image: Work5,
-    title: "Alcohol Detection System with SMS Alerts (Arduino)",
+    title: "Alcohol Detection System with SMS Alerts",
     category: ["Electronics"],
     url: "https://drive.google.com/drive/u/0/folders/1vNISJbVtxlNbeNMkMiZUHUmBd9SC64L1",
     repositoryUrl:
